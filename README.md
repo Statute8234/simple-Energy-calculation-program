@@ -10,16 +10,6 @@ This Python script calculates the amount of energy required to move an object ba
 github repo clone Statute8234/simple-Energy-calculation-program
 ```
 
-2. Navigate to the project directory.
-
-```bash
-```
-
-3. Run the script.
-
-```bash
-```
-
 4. Follow the prompts to input the weight of the object in pounds and the distance between point A and point B in meters.
 
 5. The script will calculate and display the amount of energy required in joules to move the object the specified distance.
