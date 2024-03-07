@@ -1,4 +1,4 @@
-# Object Energy Calculator
+# Simple Energy Calculator
 
 This Python script calculates the amount of energy required to move an object based on its weight and the distance between two points.
 
@@ -7,6 +7,7 @@ This Python script calculates the amount of energy required to move an object ba
 1. Clone this repository to your local machine.
 
 ```bash
+github repo clone Statute8234/simple-Energy-calculation-program
 ```
 
 2. Navigate to the project directory.
