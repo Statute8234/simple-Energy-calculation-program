@@ -1,35 +1,28 @@
 # Simple Energy Calculator
 
-This Python script calculates the amount of energy required to move an object based on its weight and the distance between two points.
+The code defines a Python class called Object, which calculates the energy required to move an object based on its weight and distance, using the formula J = (weight * gravity * distance) / 454, where gravity is a constant.
 
-## How to Use
+## Table of Contents
 
-1. Clone this repository to your local machine.
+- [About](#about)
+- [Features](#features)
+- [Imports](#Imports)
+- [Rating: 7/10](#Rating)
 
-```bash
-github repo clone Statute8234/simple-Energy-calculation-program
-```
+# About
 
-4. Follow the prompts to input the weight of the object in pounds and the distance between point A and point B in meters.
+This code creates a Python class called Object, which represents an object with weight and distance attributes. It calculates the energy required to move the object based on these values, using the formula J = (weight * gravity * distance) / 454, where gravity is a constant. The user inputs the object's weight in pounds and the distance between two points in meters, creates an instance of the Object class, calculates the energy, and prints the result.
 
-5. The script will calculate and display the amount of energy required in joules to move the object the specified distance.
+# Features
 
-## Requirements
+The Python code demonstrates the principles of object-oriented programming and energy calculations by creating an `Object` class with two attributes: `weight` representing the object's weight in pounds and `distance` representing the distance between two points in meters. The purpose of the `Object` class is to calculate the energy required to move the object using the formula \(J = \frac{{\text{{weight}} \times \text{{gravity}} \times \text{{distance}}}}{{454}}\).
 
-- Python 3.x
+The user inputs the object's weight and distance, and an instance of the `Object` class is created based on this input. The script calculates the energy using the provided formula and prints the result to the console. To enhance the functionality of the `Object` class, consider adding error handling, unit conversions, and additional methods. This code demonstrates the principles of object-oriented programming and energy calculations.
 
-## Usage
+# Imports
 
-```python
-from object_energy_calculator import Object
+None
 
-weight = float(input("Enter the weight of the object in pounds: "))
-distance = float(input("Enter the distance between point A and B in meters: "))
+# Rating
 
-obj = Object(weight, distance)
-print("You need", obj.J, "joules of energy to move the object", distance, "meters.")
-```
-
-## License
-
-NONE
+The calculation of energy based on weight and distance is straightforward and promotes code organization and reusability. However, it may cause confusion due to the misspelling of "weight" and lacks clear explanations, as well as limited error handling and validation.
