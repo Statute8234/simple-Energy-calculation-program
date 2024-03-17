@@ -7,7 +7,7 @@ The code defines a Python class called Object, which calculates the energy requi
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 4/10](#Rating)
 
 # About
 
@@ -25,4 +25,4 @@ None
 
 # Rating
 
-The calculation of energy based on weight and distance is straightforward and promotes code organization and reusability. However, it may cause confusion due to the misspelling of "weight" and lacks clear explanations, as well as limited error handling and validation.
+For several reasons, including spelling and grammar errors, lack of comments, input validation, class design, and variable naming. The code is criticized for its lack of clarity and professionalism, as well as its inability to handle non-numeric or negative values, which could cause the program to crash. The `Object` class is designed to calculate the energy required to move an object based on its weight and distance, but it lacks encapsulation, as the `gravity` variable is defined within the `__init__` method but is not stored as an attribute. The variable names are not very descriptive, and it would be more clear to rename `J` to something more meaningful, such as `required_energy`, and rename `wight` and `distance` to `weight` and `distance` for clarity. Overall, the code has several areas for improvement to enhance readability, maintainability, and robustness.
